@@ -2,9 +2,10 @@
 
 import promptSync from "prompt-sync";
 const prompt = promptSync();
-let nome:string=prompt("Digite seu nome: ")
 
+let nome:string=prompt("Digite seu nome: ")
 let cpf:string=prompt("Digite seu CPF: ");
+let idade:number=Number(prompt("Digite sua idade"));
 
 cpf= cpf.replace(/\D/g,"");
 
@@ -49,7 +50,6 @@ if(cpf.length !== 11){
         
     }
 }
-
 
 
 
