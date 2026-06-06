@@ -1,4 +1,4 @@
-     
+//Validação de CPF     
 
 import promptSync from "prompt-sync";
 const prompt = promptSync();
