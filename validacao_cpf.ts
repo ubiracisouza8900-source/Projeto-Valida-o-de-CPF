@@ -42,7 +42,7 @@ if(cpf.length !== 11){
         digito1 === Number(cpf[9])&&
         digito2 === Number(cpf[10])
     ){
-        console.log("Seja bem vindo seu CPF valido!");
+        console.log(`Seja bem vindo seu CPF valido! ${nome}`);
         
     }else{
         console.log(" seu Cpf e invalido!");
