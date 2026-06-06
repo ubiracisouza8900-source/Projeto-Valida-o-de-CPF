@@ -2,6 +2,7 @@
 
 import promptSync from "prompt-sync";
 const prompt = promptSync();
+let nome:string=prompt("Digite seu nome: ")
 
 let cpf:string=prompt("Digite seu CPF: ");
 
