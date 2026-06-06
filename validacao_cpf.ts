@@ -5,7 +5,7 @@ const prompt = promptSync();
 
 let nome:string=prompt("Digite seu nome: ")
 let cpf:string=prompt("Digite seu CPF: ");
-let idade:number=Number("Digite sua idade");
+let idade:number=Number(prompt("Digite sua idade"));
 
 cpf= cpf.replace(/\D/g,"");
 
